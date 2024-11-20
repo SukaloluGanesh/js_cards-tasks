@@ -100,7 +100,7 @@ function card(data, i) {
   price.style.alignContent = "center";
 
   let btn = document.createElement("button");
-  let btnn = document.createTextNode("Submit");
+  let btnn = document.createTextNode("Buy Now");
   btn.append(btnn);
   div.append(btn);
   btn.style.width = "250px";
